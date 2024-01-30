@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Arc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\Arc.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ArcTo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\ArcTo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CombineRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CombineRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CopyFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CopyFile.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateBrushIndirect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateBrushIndirect.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateDirectory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateDirectory.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateEllipticRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateEllipticRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateFile.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateHatchBrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateHatchBrush.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreatePatternBrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreatePatternBrush.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreatePolygonRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreatePolygonRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateRectRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateRectRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateRoundRectRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateRoundRectRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateSolidBrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateSolidBrush.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CreateToolhelp32Snapshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\CreateToolhelp32Snapshot.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="DeleteFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\DeleteFile.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="DrawIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\DrawIcon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="DrawIconEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\DrawIconEx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="DrawText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\DrawText.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Ellipse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\Ellipse.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="EmptyClipboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\EmptyClipboard.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="EnumProcesses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\EnumProcesses.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ExtTextOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\ExtTextOut.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FillRect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\FillRect.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FillRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\FillRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FrameRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\FrameRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetClipboardData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetClipboardData.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetCommandLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetCommandLine.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetCurrentDirectory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetCurrentDirectory.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetExitCodeProcess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetExitCodeProcess.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetFileAttributes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetFileAttributes.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetFileSize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetFileSize.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetFileTime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetFileTime.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetFileVersionInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetFileVersionInfo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetFileVersionInfoSize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetFileVersionInfoSize.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetPolyFillMode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetPolyFillMode.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetRgnBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetRgnBox.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetSystemDirectory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetSystemDirectory.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetSystemTime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetSystemTime.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetTempFileName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetTempFileName.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetTickCount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetTickCount.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetUserName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetUserName.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetVersion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetVersion.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetWindowText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetWindowText.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GetWindowTextLength" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\GetWindowTextLength.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="InvertRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\InvertRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KillTimer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\KillTimer.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LineTo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\LineTo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LoadCursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\LoadCursor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LoadCursorFromFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\LoadCursorFromFile.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LoadIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\LoadIcon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LoadImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\LoadImage.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="MoveFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\MoveFile.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="MoveToEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\MoveToEx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="OffsetRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\OffsetRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="PathFileExists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\PathFileExists.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="PathStripPath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\PathStripPath.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\Pie.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="PolyBezier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\PolyBezier.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="PolyBezierTo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\PolyBezierTo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Process32First" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\Process32First.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Process32Next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\Process32Next.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="PtInRegion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\PtInRegion.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ReadFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\ReadFile.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Rectangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\Rectangle.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegCloseKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegCloseKey.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegCreateKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegCreateKey.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegCreateKeyEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegCreateKeyEx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegDeleteKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegDeleteKey.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegDeleteValue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegDeleteValue.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegEnumKeyEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegEnumKeyEx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegEnumValue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegEnumValue.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegQueryValueEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegQueryValueEx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RegSetValueEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RegSetValueEx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RemoveDirectory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\RemoveDirectory.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SetClipboardData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SetClipboardData.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SetCurrentDirectory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SetCurrentDirectory.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SetLayeredWindowAttributes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SetLayeredWindowAttributes.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SetTimer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SetTimer.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SetWindowRgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SetWindowRgn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SetWindowText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SetWindowText.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SHCreateDirectoryEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SHCreateDirectoryEx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ShellExecute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\ShellExecute.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ShellExecuteEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\ShellExecuteEx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SHFileExists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SHFileExists.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SHFileOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\SHFileOperation.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ShowWindow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\ShowWindow.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Sleep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\Sleep.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="StretchBlt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\StretchBlt.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="TextOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\TextOut.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="VerQueryValue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\VerQueryValue.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="WinExec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\WinExec.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="WriteFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Code\WriteFile.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FastColoredTextBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Referencias\FastColoredTextBox.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Thema__Azenis_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Azenis_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__BasicCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__BasicCode.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__BetaBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__BetaBlue.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Bloody" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Bloody.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Thema__Border_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Border_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Cry_Engine_Theme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Cry_Engine_Theme.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Dark_Matter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Dark_Matter.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Destiny_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Destiny_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Fetus_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Fetus_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Forg_Theme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Forg_Theme.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Future_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Future_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Genesis_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Genesis_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Influx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Influx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Light_Hura_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Light_Hura_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__MumtzTheme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__MumtzTheme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__NSTheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__NSTheme.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Thema__Patrick_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Patrick_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Piano_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Piano_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Recon_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Recon_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Redemption_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Redemption_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Simpla_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Simpla_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Situation_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Situation_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Somnium_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Somnium_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Steam_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Steam_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__ThirteenTheme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__ThirteenTheme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Ubuntu_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Ubuntu_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__V2black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__V2black.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__Visceral_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__Visceral_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__VisualStudioGDI_Theme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__VisualStudioGDI_Theme1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Thema__xVisualTheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Themas\Thema__xVisualTheme.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

@@ -1,0 +1,11 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+      If (File.GetAttributes("c:\autoexec.bat") And FileAttributes.Hidden) = FileAttributes.Hidden Then
+         Console.WriteLine("Hidden")
+      Else
+         Console.WriteLine("Not Hidden")
+      End If
+   End Sub
+End Module

@@ -1,0 +1,14 @@
+Imports System
+Imports Microsoft.Win32
+Public Module modmain
+   Sub Main()
+      Dim RegKey as RegistryKey = Registry.LocalMachine.OpenSubKey("HARDWARE\DESCRIPTION\System\CentralProcessor\0")
+      Dim VendorValue as Object = RegKey.GetValue("VendorIdentifier")
+      If Not(VendorValue Is Nothing) Then
+         Console.WriteLine("processor is: " + VendorValue.ToString())
+      Else
+         Console.WriteLine("Key not found")
+      End If
+      RegKey.Close()
+   End Sub
+End Module

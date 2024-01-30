@@ -1,0 +1,15 @@
+Imports System
+Imports System.Windows.Forms
+Imports System.Drawing
+Public Module modmain
+   Sub Main()
+      Dim theForm as MainForm = new MainForm()
+      theForm.ShowDialog()
+   End Sub
+End Module
+Public Class MainForm
+Inherits Form
+   Protected Overrides Sub OnPaint(e as PaintEventArgs)
+      e.Graphics.DrawArc(new Pen(Color.Red), 0, 0, 200, 200, 50, 80)
+   End Sub
+End Class

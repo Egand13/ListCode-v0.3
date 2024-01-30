@@ -1,0 +1,9 @@
+Imports System
+Imports System.Diagnostics
+Public Module modmain
+   Sub Main()
+      Dim versionInfo As FileVersionInfo = FileVersionInfo.GetVersionInfo("D:\windows\Notepad.exe")
+      Console.WriteLine("Notepad version " + versionInfo.FileVersion)
+      Console.WriteLine("Description: " + versionInfo.FileDescription)
+   End Sub
+End Module

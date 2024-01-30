@@ -1,0 +1,8 @@
+Imports System
+Imports System.Environment
+Public Module modmain
+   Sub Main()
+      Console.WriteLine("Operating System ID: " + OSVersion.Platform.ToString)
+      Console.WriteLine("Version: " + OSVersion.Version.Major.ToString + "." + OSVersion.Version.Minor.ToString)
+   End Sub
+End Module

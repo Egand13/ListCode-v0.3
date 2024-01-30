@@ -1,0 +1,8 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+      Dim MyFile as new FileInfo ("c:\autoexec.bat")
+      Console.WriteLine("length of autoexec.bat : " + MyFile.Length.ToString )
+   End Sub
+End Module

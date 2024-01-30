@@ -1,0 +1,27 @@
+Imports System
+Imports System.Windows.Forms
+Imports System.Drawing
+Imports System.Drawing.Drawing2D
+Public Module modmain
+   Sub Main()
+      Dim theForm as MainForm = new MainForm()
+      Dim windowRegion as Region
+      Dim regionPoints(3) as Point
+      Dim regionTypes(3) as Byte
+      regionPoints(0) = new Point(0,0)
+      regionPoints(1) = new Point(20,100)
+      regionPoints(2) = new Point(80,100)
+      regionPoints(3) = new Point(100,0)
+      Dim Cnt as long
+      For Cnt = 0 to 3
+      	regionTypes(Cnt) = PathPointType.Line
+      Next Cnt
+      Dim regionPath as new GraphicsPath(regionPoints, regionTypes)
+      theForm.Region = new Region(regionPath)
+      theForm.ShowDialog()
+   End Sub
+End Module
+Public Class MainForm
+Inherits Form
+
+End Class

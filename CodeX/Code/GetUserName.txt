@@ -1,0 +1,7 @@
+Imports System
+Imports System.Security
+Public Module modmain
+   Sub Main()
+     Console.WriteLine("username: " & Principal.WindowsIdentity.GetCurrent.Name)
+   End Sub
+End Module

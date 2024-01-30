@@ -1,0 +1,8 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+      Console.WriteLine(File.Exists("c:\autoexec.bat").ToString)
+      Console.WriteLine(File.Exists("c:\Hossein.txt").ToString)
+   End Sub
+End Module

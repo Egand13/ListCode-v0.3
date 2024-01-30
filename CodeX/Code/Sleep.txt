@@ -1,0 +1,8 @@
+Imports System
+Public Module modmain
+   Sub Main()
+      Console.WriteLine("wait five seconds")
+      System.Threading.Thread.Sleep(5000)
+      Console.WriteLine("Done")
+   End Sub
+End Module

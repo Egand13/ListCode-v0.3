@@ -1,0 +1,7 @@
+Imports System
+Imports System.Environment
+Public Module modmain
+   Sub Main()
+      Console.WriteLine("minutes that system was started : " + (TickCount).ToString)
+   End Sub
+End Module

@@ -1,0 +1,7 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+      Directory.Delete("c:\Hossein")
+   End Sub
+End Module

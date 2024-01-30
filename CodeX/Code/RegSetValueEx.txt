@@ -1,0 +1,11 @@
+Imports System
+Imports Microsoft.Win32
+Public Module modmain
+   Sub Main()
+     Dim RegKey as RegistryKey = Registry.CurrentUser.CreateSubKey("Software\Hossein")
+     RegKey.SetValue("Id", "sadeghi Rad")
+     RegKey.DeleteValue("Id")
+     Registry.CurrentUser.DeleteSubKey("Software\Hossein")
+     RegKey.Close()
+   End Sub
+End Module

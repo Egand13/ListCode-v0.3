@@ -1,0 +1,9 @@
+Imports System
+Imports System.DateTime
+Public Module modmain
+   Sub Main()
+      Console.WriteLine("Day: " + Now.Day.ToString)
+      Console.WriteLine("Month: " + Now.Month.ToString)
+      Console.WriteLine("Year: " + Now.Year.ToString)
+   End Sub
+End Module

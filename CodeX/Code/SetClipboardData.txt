@@ -1,0 +1,11 @@
+Imports System
+Imports System.Windows.Forms
+Public Module modmain
+   Sub Main()
+      Clipboard.SetDataObject("Hello")
+      Dim iData as IDataObject = Clipboard.GetDataObject()
+      If iData.GetDataPresent(DataFormats.Text) Then
+         Console.WriteLine(CType(iData.GetData(DataFormats.Text), String))
+      End If
+   End Sub
+End Module

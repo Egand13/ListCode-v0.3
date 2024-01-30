@@ -1,0 +1,14 @@
+Imports System
+Imports System.Windows.Forms
+Imports System.Drawing
+Public Module modmain
+   Sub Main()
+      Dim theForm as MainForm = new MainForm()
+      theForm.Opacity = 0.5
+      theForm.ShowDialog()
+   End Sub
+End Module
+Public Class MainForm
+Inherits Form
+
+End Class

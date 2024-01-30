@@ -1,0 +1,8 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+      Dim FInfo as new FileInfo("c:\folder1\Hossein.exe")
+      Console.WriteLine(FInfo.Name)
+   End Sub
+End Module

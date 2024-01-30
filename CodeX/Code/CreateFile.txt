@@ -1,0 +1,9 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+      Dim srFile as StreamReader = File.OpenText("C:\autoexec.bat")
+      Console.WriteLine(srFile.ReadToEnd())
+      srFile.Close
+   End Sub
+End Module

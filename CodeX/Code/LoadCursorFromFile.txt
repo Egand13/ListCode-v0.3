@@ -1,0 +1,16 @@
+Imports System
+Imports System.Windows.Forms
+Imports System.Drawing
+Public Module modmain
+   Sub Main()
+      Dim theForm as MainForm = new MainForm()
+      theForm.ShowDialog()
+   End Sub
+End Module
+Public Class MainForm
+Inherits Form
+   Dim BackGround as new Bitmap("C:\Windows\setup.bmp")
+   Protected Overrides Sub OnPaint(e as PaintEventArgs)
+      e.Graphics.DrawImage(BackGround, new Point(0, 0))
+   End Sub
+End Class

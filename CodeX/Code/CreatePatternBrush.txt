@@ -1,0 +1,18 @@
+Imports System
+Imports System.Windows.Forms
+Imports System.Drawing
+Public Module modmain
+   Sub Main()
+      Dim theForm as MainForm = new MainForm()
+      theForm.Size = new Size(500, 350)
+      theForm.Text = "Visual Basic.NET"
+      theForm.ShowDialog()
+   End Sub
+End Module
+Public Class MainForm
+Inherits Form
+   Protected Overrides Sub OnPaint(e as PaintEventArgs)
+      Dim MyBrush as SolidBrush = New SolidBrush(Color.Red)
+      e.Graphics.FillRectangle(MyBrush, 0, 0, Me.Width, Me.Height)
+   End Sub
+End Class

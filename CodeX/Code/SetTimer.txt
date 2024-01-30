@@ -1,0 +1,17 @@
+Imports System
+Imports System.Threading
+Public Module modmain
+   Sub Main()
+      Dim MyTimer as Second = new Second()
+      Dim tmr as Timer = new Timer(new TimerCallback( _
+      AddressOf MyTimer.TimerEvent), Nothing, 100, 100)
+      Dim ev as ManualResetEvent = new ManualResetEvent(False)
+      ev.WaitOne(2000, False)
+      Console.WriteLine("Waited 2 seconds")
+   End Sub
+End Module
+Public Class Second
+   Public Sub TimerEvent(o as Object)
+      Console.WriteLine("Timer event")
+   End Sub
+End Class

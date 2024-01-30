@@ -1,0 +1,10 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+      Dim swFile as StreamWriter = File.CreateText("C:\Hossein.txt")
+      swFile.WriteLine("Hello")
+      swFile.Flush()
+      swFile.Close()
+   End Sub
+End Module

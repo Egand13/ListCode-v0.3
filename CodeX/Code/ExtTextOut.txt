@@ -1,0 +1,17 @@
+Imports System
+Imports System.Windows.Forms
+Imports System.Drawing
+Public Module modmain
+   Sub Main()
+      Dim theForm as MainForm = new MainForm()
+      theForm.Size = new Size(500, 350)
+      theForm.Text = "Visual Basic.NET"
+      theForm.ShowDialog()
+   End Sub
+End Module
+Public Class MainForm
+Inherits Form
+   Protected Overrides Sub OnPaint(e as PaintEventArgs)
+      e.Graphics.DrawString("Hello", new Font("Verdana", 16), new SolidBrush(Color.Red), new PointF(10, 10))
+   End Sub
+End Class

@@ -1,0 +1,7 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+       File.Copy("c:\autoexec.bat", "c:\Hossein.txt")
+   End Sub
+End Module

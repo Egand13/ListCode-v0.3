@@ -1,0 +1,10 @@
+Imports System
+Imports System.IO
+Public Module modmain
+   Sub Main()
+      Dim Str as StreamReader = File.OpenText("C:\autoexec.bat")
+      
+      Console.WriteLine(Str.ReadToEnd())
+      Str.Close
+   End Sub
+End Module

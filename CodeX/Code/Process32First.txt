@@ -1,0 +1,13 @@
+Imports System
+Imports System.Diagnostics
+Public Module modmain
+   Sub Main()
+      Dim running() as Process = Process.GetProcesses()
+      If running.Length > 0 Then
+         Dim Cnt as Integer
+	 For Cnt = 0 to running.Length - 1
+	    Console.WriteLine(running(Cnt).ProcessName)
+	 Next Cnt
+      End If
+   End Sub
+End Module
